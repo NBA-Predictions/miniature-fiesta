@@ -1,0 +1,48 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rounded-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d7e1eb; 
+    color: #0a0909;
+    text-decoration: none;
+    border-radius: 20px; 
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+.rounded-button:hover {
+    background-color: #0056b3;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #007bff, #000000);
+    justify-content: center;
+    min-height: 100vh;
+}
+h1, p, ul, h2{
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+h2 {
+    margin-bottom: 20px; 
+    margin-top: 20px; 
+}
+
+ul {
+    margin-top: 20px; 
+    padding-left: 0; 
+}
+
+
+
